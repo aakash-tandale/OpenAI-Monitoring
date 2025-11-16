@@ -2,10 +2,6 @@
 
 # OpenAI-Monitoring
 
-A small, interview-friendly Python watcher that polls OpenAI's public status page and prints incidents and degraded components to stdout.
-
-This repository contains a single-purpose script, `status_watcher.py`, which demonstrates polite HTTP caching (ETag / Last-Modified) with a hash-based fallback and simple adaptive polling.
-
 ## Features
 
 - Uses ETag (`If-None-Match`) and `Last-Modified` (`If-Modified-Since`) to avoid unnecessary downloads.
